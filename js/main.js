@@ -4,7 +4,7 @@ const arrayImgs = [];
 
 function launch() {
     let number = Math.round(Math.random()*(6 - 1) + 1)
-    const imgDiceSrc = `../assets/img/dado${number.toString()}.png`
+    const imgDiceSrc = `https://raw.githubusercontent.com/ricmiber96/dado-js/gh-pages/assets/img/dado${number.toString()}.png`
     imgDice.src = imgDiceSrc
     setHistory(imgDiceSrc)
 }
