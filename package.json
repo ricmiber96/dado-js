@@ -1,0 +1,18 @@
+{
+  "name": "dado-js",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "vite build --emptyOutDir && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "stylelint-config-standard": "^22.0.0",
+    "vite": "^2.6.0"
+  },
+  "dependencies": {
+    "stylint": "^2.0.0"
+  }
+}
